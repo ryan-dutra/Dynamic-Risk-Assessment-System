@@ -23,10 +23,10 @@ Diagnostics Summary
 {
   "execution_time": [
     {
-      "ingest_time_mean": 0.49363791280009084
+      "ingest_time_mean": 0.5005342585498965
     },
     {
-      "train_time_mean": 0.9271940053500429
+      "train_time_mean": 0.9915596325997285
     }
   ],
   "missing_percentage": {
@@ -88,7 +88,7 @@ Model Score
 <h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
 <div class="traceback">
   <h3></h3>
-  <ul><li><div class="frame" id="frame-140303314934064">
+  <ul><li><div class="frame" id="frame-140303307812848">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">1498</em>,
       in <code class="function">__call__</code></h4>
@@ -100,7 +100,7 @@ Model Score
 <pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683008">
+<li><div class="frame" id="frame-140303307810832">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">1476</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -117,7 +117,7 @@ Model Score
 <pre class="line after"><span class="ws">        </span>finally:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683120">
+<li><div class="frame" id="frame-140303307813632">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">1473</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -134,7 +134,7 @@ Model Score
 <pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683232">
+<li><div class="frame" id="frame-140303307814976">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">882</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -151,7 +151,7 @@ Model Score
 <pre class="line after"><span class="ws">        </span>rv: ft.ResponseReturnValue | HTTPException,</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683344">
+<li><div class="frame" id="frame-140303307815872">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">880</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -168,7 +168,7 @@ Model Score
 <pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683456">
+<li><div class="frame" id="frame-140303307811056">
   <h4>File <cite class="filename">"/home/rdutra/.local/lib/python3.10/site-packages/flask/app.py"</cite>,
       line <em class="line">865</em>,
       in <code class="function">dispatch_request</code></h4>
@@ -185,7 +185,7 @@ Model Score
 <pre class="line after"><span class="ws">        </span>error handling.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307683568">
+<li><div class="frame" id="frame-140303307810608">
   <h4>File <cite class="filename">"/mnt/c/Users/rdutr/Documents/Projects/Udacity/Dynamic-Risk-Assessment-System/src/app.py"</cite>,
       line <em class="line">48</em>,
       in <code class="function">score</code></h4>
@@ -202,7 +202,7 @@ Model Score
 <pre class="line after"><span class="ws"></span> </pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307685360">
+<li><div class="frame" id="frame-140303307813968">
   <h4>File <cite class="filename">"/usr/lib/python3.10/subprocess.py"</cite>,
       line <em class="line">503</em>,
       in <code class="function">run</code></h4>
@@ -219,7 +219,7 @@ Model Score
 <pre class="line after"><span class="ws">            </span>if _mswindows:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307809488">
+<li><div class="frame" id="frame-140303307815648">
   <h4>File <cite class="filename">"/usr/lib/python3.10/subprocess.py"</cite>,
       line <em class="line">971</em>,
       in <code class="function">__init__</code></h4>
@@ -236,7 +236,7 @@ Model Score
 <pre class="line after"><span class="ws">                                </span>errread, errwrite,</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140303307809600">
+<li><div class="frame" id="frame-140303307813184">
   <h4>File <cite class="filename">"/usr/lib/python3.10/subprocess.py"</cite>,
       line <em class="line">1863</em>,
       in <code class="function">_execute_child</code></h4>
